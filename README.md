@@ -40,7 +40,7 @@ src/
 
 ## Clone the repository:
 ```bash
-git clone https://github.com/your-username/job-tracker.git
+git clone https://github.com/Dhanabasappa/job-tracker.git
 
 ## Install dependencies:
 npm install
