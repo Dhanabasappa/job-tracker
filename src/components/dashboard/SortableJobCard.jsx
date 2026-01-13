@@ -91,24 +91,3 @@ function SortableJobCard({ job, onClick, onDelete }) {
     );
 }
 export default SortableJobCard;
-
-
-/*import { useSortable } from "@dnd-kit/sortable";
-import {CSS} from '@dnd-kit/utilities';
-import JobCard from "./JobCard";
-
-function SortableJobCard({job,onClick,onDelete}) {
-    const {attributes,listeners,setNodeRef,transform,transition,isDragging} = useSortable({id:job.id});
-    const style = {
-        transform:CSS.Transform.toString(transform),transition,
-        opacity:isDragging ? 0.5 :1,
-        cursor:isDragging ? 'grabbing' : 'grab',
-    };
-
-    return(
-        <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
-            <JobCard job={job} onClick={onClick} onDelete={onDelete}/>
-        </div>
-    );
-}
-export default SortableJobCard; */
